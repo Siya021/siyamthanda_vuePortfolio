@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-   
+   <h1>Siyamthanda</h1>
   </div>
 </template>
 
