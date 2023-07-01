@@ -9,6 +9,7 @@
         <div class="col"><p class="description">I'm a Front-End Developer from Cape Town, South Africa
            I am Siyamthanda Mazokwana, 24 years of age and I am an Aspiring Front End Developer</p>
            <button class="btn btn-outline-success" to="/contact">Contact Me</button>
+           <font-awesome-icon :icon="['fab', 'bootstrap']" />
           </div>
         </div>
       </div>
