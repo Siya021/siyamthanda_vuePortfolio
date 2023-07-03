@@ -29,5 +29,8 @@
 </script>
 
 <style scoped>
-
+#head{
+  border-bottom: solid green;
+  padding: 20px;
+}
 </style>
