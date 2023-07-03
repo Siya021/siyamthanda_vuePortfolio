@@ -40,7 +40,7 @@ input, textarea{
     color: white;
 }
 ::placeholder{
-    color: white;
+    color: grey;
 }
 .btn{
     margin: 20px;
