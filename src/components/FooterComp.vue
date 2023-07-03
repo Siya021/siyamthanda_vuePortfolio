@@ -1,6 +1,6 @@
 <template>
-    <div>
-       <h1>footer</h1>
+    <div class="container-fluid">
+       <p>@siyamthandamazokwana Copyright &COPY; 2023</p>
     </div>
 </template>
 
@@ -11,5 +11,8 @@
 </script>
 
 <style scoped>
-
+.container-fluid{
+    background-color:black;
+    color: white;
+}
 </style>
