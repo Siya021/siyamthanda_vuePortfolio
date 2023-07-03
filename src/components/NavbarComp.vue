@@ -33,4 +33,7 @@
   border-bottom: solid green;
   padding: 20px;
 }
+.nav-item :hover{
+  color: green;
+}
 </style>
