@@ -24,6 +24,12 @@
           </div>
          </div>
         </div>
+
+        <div class="container-skills">
+          <h4> Skills</h4>
+         <SkillsComp />
+        </div>
+        
       </div>
     </div>
   </div>
@@ -31,10 +37,12 @@
 
 <script>
 import PersonDetailsComp from "@/components/PersonDetailsComp.vue";
+import SkillsComp from '@/components/SkillsComp.vue';
 
 export default {
   components: {
     PersonDetailsComp,
+    SkillsComp,
   },
   computed: {
     work() {
@@ -48,6 +56,9 @@ export default {
 </script>
 
 <style scoped>
+.container-skills{
+  margin: 20px;
+}
 ul.timeline-3 {
   list-style-type: none;
   position: relative
@@ -74,11 +85,11 @@ ul.timeline-3 > li {
 }
 ul.timeline-3 > li:before {
   content: " ";
-  background: white;
+  background: greenyellow;
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid red;
+  border: 3px solid green;
   left: 20px;
   width: 20px;
   height: 20px;
