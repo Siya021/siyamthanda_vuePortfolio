@@ -12,9 +12,6 @@
             <label for="name">Email</label>
             <p>siyamthandamazokwana@gmail.com</p>
         </div>
-        <div class="col">
-         
-        </div>
     </div>
 </template>
 
