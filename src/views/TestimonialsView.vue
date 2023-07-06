@@ -36,6 +36,11 @@
 </script>
 
 <style scoped>
+.col-4{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
 .card{
     width: 300px;
     border-radius: 25px;

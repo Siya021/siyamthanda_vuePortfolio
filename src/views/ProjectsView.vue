@@ -34,7 +34,7 @@
 .col-4{
     padding: 20px;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
 }
 .card-body{
     border: solid green;
