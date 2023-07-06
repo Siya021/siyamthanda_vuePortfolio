@@ -32,6 +32,7 @@
                 <span><a><i>5</i></a></span>
             </div>
           </div>
+          <p><small>Programming Skills</small></p>
     </div>
 </template>
 
@@ -49,7 +50,7 @@
     display: inline-flex;
     position: relative;
     top: 10px;
-  
+    text-align: center;
   }
   .wrapper .icon{
     margin: 0 20px;

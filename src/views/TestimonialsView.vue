@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="container-fluid">
         <h1>Testimonials</h1>
         <div class="row">
-            <div class="col " v-for="item in testimonials" :key="item.id">
+            <div class="col-4 " v-for="item in testimonials" :key="item.id">
                 <div class="card">
                   <div class="image-content">
                     <span class="overlay"></span>
@@ -60,7 +60,7 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: red;
+    background-color: green;
     border-radius: 25px 25px 0 25px;
   }
   .overlay::before,
@@ -75,14 +75,14 @@
   }
   .overlay::after{
     border-radius: 0 25px 0 0;
-    background-color: red;
+    background-color:green;
   }
    .card-image{
     position: relative;
     height: 150px;
     width: 150px;
     border-radius: 75%;
-    background: red;
+    background: green;
     padding: 4px;
    } 
   .card-image .card-img{
