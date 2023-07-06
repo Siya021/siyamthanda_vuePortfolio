@@ -1,8 +1,10 @@
+
 <template>
   <div class="home">
     <div class="landing">
-      <p class="lead"> {S} </p>
-      <h2>Welcome to my portfolio</h2>
+      <p class="lead"> Hey there!!! </p>
+      <h2 class="animate__jackInTheBox" id="h2a">Welcome to my portfolio</h2>
+
     </div>
   </div>
 </template>
@@ -16,6 +18,14 @@ export default {
 }
 </script>
 <style scoped>
+  h2 {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: jackInTheBox; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+  }
+
 .home{
   background-image: url('https://i.postimg.cc/KYS9tgP0/black-paper-background.jpg');
   background-repeat: no-repeat;
