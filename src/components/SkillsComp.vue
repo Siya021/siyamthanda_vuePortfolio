@@ -33,7 +33,7 @@
             </div>
           </div>
           <div class="container-fluid"></div>
-          <p><small>Programming Skills</small></p>
+          <p><small>Hover over the numbers to view Programming Skills</small></p>
     </div>
 </template>
 

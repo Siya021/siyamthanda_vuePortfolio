@@ -105,8 +105,8 @@ h4{
   .card-image .card-img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+    object-fit: contain;
+    border-radius: 20%;
     border: 3px solid black;
   }
   .name{

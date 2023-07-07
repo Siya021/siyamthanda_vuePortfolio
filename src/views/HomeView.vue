@@ -2,7 +2,6 @@
 <template>
   <div class="home">
     <div class="landing">
-      <p class="lead">Hey</p>
       <h1 class="animate__jackInTheBox" id="h2a"><big>Welcome to my portfolio</big></h1>
       <p class="end"><big><big>I am an Aspiring Front End Developer</big></big></p>
       <div class="btns">
@@ -77,11 +76,6 @@ export default {
   padding: 60px;
   color: white;
   background-color: black ;
-}
-.lead{
-  font-size: xx-large;
-  animation: slideInLeft;
-  animation-duration: 5s; 
 }
 .landing{
   align-content: center;
