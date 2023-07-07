@@ -32,6 +32,7 @@
                 <span><a><i>5</i></a></span>
             </div>
           </div>
+          <div class="container-fluid"></div>
           <p><small>Programming Skills</small></p>
     </div>
 </template>
@@ -43,8 +44,15 @@
 </script>
 
 <style scoped>
+.container-fluid{
+  padding: 10px;
+}
+p{
+  background-color: rgb(22,126,79);
+}
 .container{
-    justify-content: space-between;
+  border: solid rgb(22,126,79);;
+    justify-content: space-around;
 }
 .wrapper{
     display: inline-flex;
@@ -68,7 +76,7 @@
     display: block;
     height: 60px;
     width: 60px;
-    background:green;
+    background:rgb(22,126,79);
     color: white;
     border-radius: 50%;
     position: relative;
@@ -123,7 +131,7 @@
   .wrapper :hover .tooltip,
   .wrapper :hover .tooltip:before{
     background: black;
-    color: green;
+    color: rgb(22,126,79);
   }
   
 </style>

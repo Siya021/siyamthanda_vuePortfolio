@@ -1,13 +1,16 @@
 <template>
-    <div class="container-fluid">
-        <form action="https://formspree.io/f/xrgwzvyn
-        " method="post">
-        <div class="row">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <form action="https://formspree.io/f/xrgwzvyn" method="post">
+          <div class="row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+              <input type="text" class="form-control" placeholder="First name" pattern="[A-Za-z]+"
+                title="Please enter a valid first name." required aria-label="First name">
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+              <input type="text" class="form-control" placeholder="Last name" pattern="[A-Za-z]+"
+                title="Please enter a valid last name." required aria-label="Last name">
             </div>
           </div>
           <div class="mb-3">
@@ -19,33 +22,65 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           <button class="btn btn-outline-success" type="submit">Submit</button>
-    </form>
+        </form>
+      </div>
+      <div class="col" id="contact">
+        <h4>Get in Touch</h4>
+               <p>siyamthandamazokwana@gmail.com</p>
+             <p> + 27 60 504 7299</p>
+             <a href="https://www.facebook.com/" class="fa fa-facebook-square"></a>
+                 <a href="https://wwww.github.com/" class="fa fa-git-square"></a>
+                 <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                 <a href="https://www.linkedin.com/" class="fa fa-linkedin-square"></a>
+      </div>
     </div>
+
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {
+
+}
 </script>
 
 <style scoped>
-body{
-    display: block;
+.fa{
+  font-size: 2rem !important;
+  width: 50px;
+  text-decoration: none;
+  color: rgb(22,126,79)
 }
-input, textarea{
-    border: solid  green;
-    text-align: center;
-    background-color: black;
-    color: white;
+#contact{
+  border-left: solid rgb(22, 126, 79);
+  padding: 20px;
+  text-align: center;
 }
-::placeholder{
-    color: grey;
+h4{
+  background-color: rgb(22, 126, 79);
+  
 }
-.btn{
-    margin: 20px;
+body {
+  display: block;
 }
-.container-fluid{
-    padding: 20px;
+
+input,
+textarea {
+  border: solid rgb(22, 126, 79);
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+::placeholder {
+  color: grey;
+}
+
+.btn {
+  margin: 20px;
+}
+
+.container-fluid {
+  padding: 20px;
 }
 </style>

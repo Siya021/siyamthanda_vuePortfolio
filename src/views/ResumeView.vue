@@ -1,14 +1,18 @@
 <template>
   <div class="container-fluid">
-    <h1>Resume</h1>
     <div class="row">
       <div class="col">
         <PersonDetailsComp />
       </div>
+      <div class="col">
+        <h4>Education</h4>
+        <EducationComp />
+      </div>
+    </div>
+    <div class="row" >
       <div class="col" id="work">
         <h4>Work Experience</h4>
-        <div >
-          <div class="container my-5">
+        <div class="container2">
             <div class="col-md-6 offset-md-3" v-for="item in work" :key="item.id">   
               <div class="card border-success mb-3" style="max-width: 18rem;">
                 <div class="card-header">{{ item.company }}</div>
@@ -20,12 +24,7 @@
             </div>
           </div>
         </div>
-        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <EducationComp />
       </div>
       <div class="col">
         <div class="container-skills">
@@ -34,7 +33,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -60,13 +58,26 @@ export default {
 </script>
 
 <style scoped>
+.card-body{
+  background-color: black;
+}
+.container2{
+  justify-content: center;
+  display: flex;
+}
+h4{
+  text-decoration: overline rgb(22,126,79);
+  text-decoration-style: dotted;
+  margin: 10px;
+  padding: 10px;
+}
 .card-header{
-  background-color: green;
+  background-color:rgb(22,126,79);
   opacity: 90%;
   color: white;
 }
 .card-text{
-  background-color: green;
+  background-color: rgb(22,126,79);
   opacity: 90%;
   color: white;
 }
