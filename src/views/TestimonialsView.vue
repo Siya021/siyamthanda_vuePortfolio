@@ -1,6 +1,5 @@
 <template>
     <div class="container-fluid">
-        <h1>Testimonials</h1>
         <div class="row">
             <div class="col-4 " v-for="item in testimonials" :key="item.id">
                 <div class="card">
@@ -14,6 +13,7 @@
                   <div class="card-content">
                     <h2 class="name">{{ item.name }}</h2>
                     <p class="description">{{ item.message }}</p>
+                    <h4 class="o">{{item.occupation}}</h4>
                   </div>
                 </div>
               </div>
@@ -36,6 +36,18 @@
 </script>
 
 <style scoped>
+
+.o{
+  border-left: solid rgb(22,126,79);
+  padding: 20px;
+  
+}
+h4{
+  color: rgb(22,126,79);
+}
+.container-fluid{
+  padding: 50px;
+}
 .col-4{
   display: flex;
   justify-content: space-around;
@@ -65,7 +77,7 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: green;
+    background-color: rgb(22,126,79);
     border-radius: 25px 25px 0 25px;
   }
   .overlay::before,
@@ -80,14 +92,14 @@
   }
   .overlay::after{
     border-radius: 0 25px 0 0;
-    background-color:green;
+    background-color:rgb(22,126,79);
   }
    .card-image{
     position: relative;
     height: 150px;
     width: 150px;
     border-radius: 75%;
-    background: green;
+    background: rgb(22,126,79);
     padding: 4px;
    } 
   .card-image .card-img{

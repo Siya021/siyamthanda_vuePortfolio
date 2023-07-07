@@ -11,6 +11,8 @@
             <p>060 504 7299</p>
             <label for="name">Email</label>
             <p>siyamthandamazokwana@gmail.com</p>
+            <label for="address">Address</label>
+            <p> 10721 Dubu Crescent, Phillipi,Cape Town 7750, South Africa</p>
         </div>
     </div>
 </template>
@@ -26,12 +28,12 @@
 .col{
     text-align: start;
     padding:30px;
-    border: solid green;
+    border: solid rgb(22,126,79)n;
 }
 p{
     text-align: center;
     color: white;
-    background-color: green;
+    background-color: rgb(22,126,79);
 }
 
 </style>

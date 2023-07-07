@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h1>Projects</h1>
         <div class="row">
             <div class="col-4" v-for="item in projects" :key="item.id">
                 <div class="card" style="width: 18rem;" >
@@ -37,6 +36,6 @@
    justify-content: space-around;
 }
 .card-body{
-    border: solid green;
+    border: solid rgb(22,126,79);
 }
 </style>
