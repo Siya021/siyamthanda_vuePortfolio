@@ -42,7 +42,6 @@ export default {
 }
 .end{
   margin: 0 0.5rem;
-
   animation: zoomInUp;
   animation-duration: 5s;
   color: rgb(22,126,79); 

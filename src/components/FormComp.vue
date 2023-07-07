@@ -5,12 +5,19 @@
         <form action="https://formspree.io/f/xrgwzvyn" method="post">
           <div class="row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="First name" pattern="[A-Za-z]+"
-                title="Please enter a valid first name." required aria-label="First name">
+              <input type="text" class="form-control" placeholder="First name"   minlength="3"
+              maxlength="20"
+              required
+              oninvalid="this.setCustomValidity('Please Enter Your Name')"
+              oninput="this.setCustomValidity('')" aria-label="First name">
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Last name" pattern="[A-Za-z]+"
-                title="Please enter a valid last name." required aria-label="Last name">
+              <input type="text" class="form-control" placeholder="Last name" 
+              minlength="3"
+              maxlength="20"
+              required
+              oninvalid="this.setCustomValidity('Please Enter Your Name')"
+              oninput="this.setCustomValidity('')" aria-label="Last name">
             </div>
           </div>
           <div class="mb-3">

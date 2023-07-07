@@ -30,6 +30,14 @@
 </script>
 
 <style scoped>
+.row{
+  margin: 0 0.5rem;
+  animation: zoomInUp;
+  animation-duration: 5s;
+}
+.btn{
+  margin: 10px;
+}
 .col-4{
     padding: 20px;
    display: flex;

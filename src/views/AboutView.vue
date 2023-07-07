@@ -31,6 +31,9 @@
 
 .aboutImg{
   height: 550px;
+  margin: 0 0.5rem;
+  animation: backInLeft;
+  animation-duration: 5s;
 }
 span{
   color: rgb(22,126,79);

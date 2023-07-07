@@ -53,6 +53,11 @@ h4{
   justify-content: space-around;
   margin-bottom: 20px;
 }
+.container-fluid{
+  margin: 0 0.5rem;
+  animation: zoomInLeft;
+  animation-duration: 5s;
+}
 .card{
     width: 300px;
     border-radius: 25px;
