@@ -52,7 +52,6 @@ export default {
   background-color: black;
   margin: 20px;
 }
-g
 .animate__jackInTheBox{
   transform: rotateZ(-200deg);
   transform:translateY(50px)
