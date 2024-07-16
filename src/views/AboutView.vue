@@ -20,6 +20,7 @@
       </div>
     </div>
 </template>
+
 <style scoped>
 .row{
   margin-top: 20px;
